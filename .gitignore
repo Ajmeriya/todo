@@ -5,10 +5,25 @@ Thumbs.db
 # Dependencies
 node_modules/
 
-# Build output
+# Frontend Build
 dist/
 build/
 coverage/
+
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Logs
+*.log
 
 # Environment
 .env
